@@ -26,7 +26,7 @@ Here are some screenshots of the project to give you an idea of its features and
 ## Getting Started
 1. Clone this repository to your local machine
 ```bash
-git clone https://github.com/Prajwal-shindee/Resume-Craftr.git
+git clone https://github.com/eagleharsh/Resume_Craft/
 ```
 2. Navigate to the project directory
 ```bash
@@ -51,7 +51,7 @@ npm run start
 - [React HTML to PDF](https://www.npmjs.com/package/react-html-to-pdf)
 
 ### Authors
-- [Prajwal Shinde](https://prajwal-shinde.netlify.app/)
+- [Harsh Saini](https://harsh-saini.netlify.app/)
 
 ### Contributions
 - We welcome contributions to our website. If you would like to contribute, please submit a pull request on our Github repository.
