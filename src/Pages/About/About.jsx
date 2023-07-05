@@ -8,6 +8,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { Helmet } from "react-helmet";
+import homeLogo from './../../Assets/profile.png'
 
 const testimonials = [
   {
