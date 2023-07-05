@@ -15,7 +15,7 @@ const testimonials = [
     role: "Full Stack Developer",
     content:
       "A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.",
-    avatar: "",
+    avatar: `url("./Profile.png")`,
   },
 ];
 
@@ -112,7 +112,7 @@ export default function About() {
           name="keywords"
           content="resume builder, about us, mission, professional resumes, tools"
         />
-        <meta name="author" content="Hardik Desai" />
+        <meta name="author" content="Harsh Saini" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="About Us - Resume Builder" />
         <meta
