@@ -8,7 +8,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { Helmet } from "react-helmet";
-import homeLogo from './../../Assets/profile.png'
+import profile from './../../Assets/profile.png'
 
 const testimonials = [
   {
@@ -90,7 +90,7 @@ function TestimonialCard(props) {
         </chakra.p>
       </Flex>
       <Avatar
-        src={avatar}
+        src={profile}
         height={"80px"}
         width={"80px"}
         alignSelf={"center"}
@@ -104,7 +104,7 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About Us - Resume Builder</title>
+        <title>About Us - Resume Craft</title>
         <meta
           name="description"
           content="Learn more about the Resume Builder website and its mission to provide easy-to-use tools for creating professional resumes."
@@ -145,7 +145,7 @@ export default function About() {
             textTransform={"uppercase"}
             color={"teal.400"}
           >
-            People love us
+            A
           </chakra.h3>
           <chakra.h1
             py={5}
@@ -154,7 +154,7 @@ export default function About() {
             fontWeight={"bold"}
             color={useColorModeValue("gray.700", "gray.50")}
           >
-            Resume Builder
+            Resume Craft
           </chakra.h1>
           <chakra.h2
             margin={"auto"}
